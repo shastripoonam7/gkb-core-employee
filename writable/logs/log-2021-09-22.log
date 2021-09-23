@@ -1,0 +1,210 @@
+CRITICAL - 2021-09-22 01:19:14 --> Undefined variable $emp
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->index()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 01:20:05 --> Undefined variable $emp
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->index()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 01:20:11 --> Undefined variable $emp
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->index()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 07:50:04 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\employee\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\employee\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\employee\system\Common.php(1271): CodeIgniter\View\View->render('employee', Array, true)
+#3 C:\xampp\htdocs\employee\app\Controllers\Employee.php(25): view('employee', Array)
+#4 C:\xampp\htdocs\employee\app\Controllers\Employee.php(17): App\Controllers\Employee->showEmployee(Array)
+#5 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->index()
+#6 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#7 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-22 09:40:18 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:42:21 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:46:20 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:49:28 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:51:11 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:55:08 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:56:20 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 09:59:45 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:09:37 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:09:49 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:10:27 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(38): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:40:04 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(41): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:43:14 --> Undefined constant "App\Controllers\hobbies"
+#0 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 10:43:41 --> Undefined constant "App\Controllers\hobbies"
+#0 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 10:48:14 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(41): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:49:30 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(41): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 10:50:03 --> implode(): Argument #2 ($array) must be of type ?array, string given
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(41): implode(Array, ',')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 11:20:42 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::hasFile()
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(49): App\Controllers\Employee->storeImage(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 11:27:51 --> Undefined constant "App\Controllers\ASSETURL"
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(49): App\Controllers\Employee->storeImage(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 11:39:42 --> Call to a member function protect() on int
+#0 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->addEmp()
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 17:36:00 --> Undefined array key 7
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 254)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 17:38:00 --> Call to a member function insertBatch() on array
+#0 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-22 17:53:14 --> Path cannot be empty
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(239): file('')
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:30:17 --> Undefined array key 6
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:36:29 --> Undefined array key 6
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-22 18:38:54 --> Undefined array key 6
+#0 C:\xampp\htdocs\employee\app\Controllers\Employee.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\employee\system\CodeIgniter.php(928): App\Controllers\Employee->ImportCSV()
+#2 C:\xampp\htdocs\employee\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\xampp\htdocs\employee\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\employee\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
