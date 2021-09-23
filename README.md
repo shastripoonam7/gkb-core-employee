@@ -3,7 +3,8 @@
 Instructions to run project codeigniter 4 project:
 1. Modify your php.ini file - add "extension=intl"
 2. Add project in htdocs folder - My project name is "employee", You can name it according to your requirement
-3. Create database - emp_demo -
+3. This project has feature to upload image so you need to create folder in C:/ Drive "EmpData", or you can create directory as per your choice just you have to change value of constant variable 'DataPath' , 'EMP_IMAGE_PATH' in constant.php file - (app/config/constant.php )
+4. Create database - emp_demo -
  -> If you change schema name than make sure to update it in .env file in main folder of your project database.default.database =" "Your database name"
  -> Modify database.default setting according to your MySQL settings
 5. Execute emp_demo.sql file - MySQl 
