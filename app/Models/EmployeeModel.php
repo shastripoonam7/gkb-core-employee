@@ -88,6 +88,8 @@ class EmployeeModel extends Model
                     return '-';
                    $imagepath =EMP_IMAGE_PATH.'/'.$value;
                   // echo $imagepath; die;
+                  if(!file_exists($imagepath))
+                            return '-';
                    $type = pathinfo("$imagepath", PATHINFO_EXTENSION);
                     $data = file_get_contents("$imagepath");
                   //  echo $data; die;
