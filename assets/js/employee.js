@@ -13,7 +13,7 @@ function loaddatatable() {
   $('#example1').dataTable({
     "processing": true,
     "serverSide": true,
-    "order": [[3, "desc"]],
+    "order": [[0, "desc"]],
     "fnRowCallback": function (nRow, aData, iDisplayIndex) {
       var oSettings = this.fnSettings();
       $("td:first", nRow).html(oSettings._iDisplayStart + iDisplayIndex + 1);
