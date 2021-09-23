@@ -1,56 +1,15 @@
-# CodeIgniter 4 Framework
+# Codeigniter 4 Project 
 
-## What is CodeIgniter?
+Instructions to run project codeigniter 4 project:
+1. Modify your php.ini file - add "extension=intl"
+2. Add project in htdocs folder - My project name is "employee", You can name it according to your requirement
+3. This project has feature to upload image so you need to create folder in C:/ Drive "EmpData", or you can create directory as per your choice just you have to change value of constant variable 'DataPath' , 'EMP_IMAGE_PATH' in constant.php file - (app/config/constant.php )
+4. Create database - emp_demo -
+ -> If you change schema name than make sure to update it in .env file in main folder of your project database.default.database =" "Your database name"
+ -> Modify database.default setting according to your MySQL settings
+5. Execute emp_demo.sql file - MySQl 
+6. To run project in your browser enter url in following format = localhost/"Project_Name"/Employee (Make sure your your Apache and MySQl is running)
+7. If you face any issue while running project please make sure to check codeigniter 4 installation documentation - https://codeigniter.com/user_guide/intro/index.html
+8. This project has few issues to display toastr error and ImportCsV validation is pending which I am working to resolve
+## Any Further suggestion to improve code is welcome - THANK YOU
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
-
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
-
-
-## Important Change with index.php
-
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.3 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
