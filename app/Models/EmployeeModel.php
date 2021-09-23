@@ -76,6 +76,8 @@ class EmployeeModel extends Model
                 "formatter" => function ($value, $row) {
                     if(empty($value))
                     return '-';
+                    else
+                    return $value;
                 }
             ),
             array(
